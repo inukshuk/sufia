@@ -1,3 +1,2 @@
 gem 'kaminari', github: 'jcoyne/kaminari', branch: 'sufia'
-
-
+gem 'active-fedora', '=9.0.6'
