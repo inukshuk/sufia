@@ -7,6 +7,8 @@ gemspec
 gem 'kaminari', github: 'jcoyne/kaminari', branch: 'sufia'
 gem 'sufia-models', path: './sufia-models'
 gem 'slop', '~> 3.6.0' # This just helps us generate a valid Gemfile.lock when Rails 4.2 is installed (which requires byebug which has a dependency on slop)
+gem 'active-fedora', github: 'projecthydra/active_fedora', ref: 'ab1f946e63f3d92b5fd5fa86a50ca3ab1bba38de'
+gem 'hydra-collections', github: 'projecthydra/hydra-collections', ref: '9af15b0ca7b2b51b93eddb0adb92ff8caab3a199'
 
 group :development, :test do
   gem "simplecov", require: false
